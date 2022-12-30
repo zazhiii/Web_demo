@@ -1,0 +1,155 @@
+ * {
+     padding: 0;
+     margin: 0;
+     
+ }
+
+ html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 104px;
+ }
+ body {
+     background-image: url(./bg.png);
+     background-size: contain;
+ }
+
+ .w {
+    opacity: .9;
+     width: 80%;
+     margin: 0px auto 0;
+ }
+
+ .superNav {
+     height: 104px;
+     width: 100%;
+ }
+
+ .nav {
+    z-index: 1;
+     background-color: rgb(79, 104, 216);
+     opacity: .8;
+     position: fixed;
+     height: 104px;
+     width: 100%;
+ }
+
+ .main {
+     height: 150px;
+     width: 400px;
+     line-height: 110px;
+     padding-left: 80px;
+     font-size: 40px;
+     float: left;
+ }
+
+ .main a {
+     text-decoration: none;
+     color: #000;
+ }
+
+ .main a:hover {
+     color: aqua;
+ }
+
+ .main2 {
+     height: 90px;
+     float: left;
+     margin-top: 10px;
+ }
+
+ .main2 ul a {
+     color: #000;
+ }
+
+ .main2 ul li {
+     height: 90px;
+     padding: 0 50px 0;
+     font-size: 25px;
+     line-height: 90px;
+     text-align: center;
+     display: block;
+     float: left;
+ }
+
+ .main2 ul li:hover {
+     color: aqua;
+     border-bottom: 4px solid aqua;
+ }
+
+ .p {
+    opacity: .9;
+    background-color: #fff;
+     float: left;
+     width: 50%;
+     padding-top: 20px;
+ }
+
+ .p1 {
+     height: 480px;
+     font-size: 20px;
+     line-height: 1.8em;
+     font-family: "Times New Roman", Times, serif;
+     font-size: 22px;
+ }
+
+ .p2 {
+     float: right;
+     font-size: 20px;
+     line-height: 1.857em;
+     font-family: "Times New Roman", Times, serif;
+     font-size: 22px;
+ }
+
+ .p3 {
+     height: 480px;
+     font-size: 24px;
+     line-height: 2.2em;
+     font-family: "Times New Roman", Times, serif;
+     font-size: 22px;
+ }
+
+ .p4 {
+     height: 480px;
+     font-size: 24px;
+     line-height: 2.8em;
+     font-family: "Times New Roman", Times, serif;
+     font-size: 22px;
+ }
+
+ .bgimg {
+     height: 500px;
+     width: 50%;
+     float: left;
+ }
+
+ .img {
+     height: 100%;
+     width: 100%;
+     background-size: 100% 100%;
+ }
+
+ .img1 {
+     background-image: url(./img1.jfif);
+ }
+
+ .img2 {
+     background-image: url(./img2.png);
+ }
+
+ .img3 {
+     background-image: url(./img3.png);
+ }
+
+ .img4 {
+     background-image: url(./img4.png);
+ }
+ .img5{
+    text-align: center;
+ }
+.img5 h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+ video {
+     margin: 100px 50px 0;
+ }
